@@ -1,0 +1,13 @@
+.results {
+  width: 100%;
+  padding: 15px;
+}
+
+.result {
+  padding: 15px 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin: 10px 0;
+  background-color: #ccc;
+}

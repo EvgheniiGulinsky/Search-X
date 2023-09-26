@@ -1,0 +1,28 @@
+.container {
+  width: 620px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 125px;
+}
+
+.search {
+  width: 600px;
+  height: 25px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.search:focus {
+  border-color: #007bff; /* Change the border color on focus */
+}
